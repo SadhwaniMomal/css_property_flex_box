@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout one</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .achor 
+        {
+            border: none;
+            margin: 0px 0px 15px 0px ;
+        a{
+            border: 1px solid peru;
+            border-radius: 5px ;
+           padding: 15px;
+          
+            text-decoration: none;
+
+        }
+
+    }
+        section{
+            border: 2px solid blueviolet;
+            border-radius: 5px;
+            padding: 10px;
+            width: 750px;
+        }
+        .row {
+            display: flex;
+            justify-content: left;
+            .col{
+                border: 1px solid peru;
+                padding: 30px;
+                margin: 0px 5px;
+                border-radius: 5px;
+            }
+        }
+        .para {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            .para-col{
+                border: 1px solid darkgray;
+                padding: 20px;
+                margin: 0px 5px;
+                border-radius: 5px;
+                width: 300px;
+
+
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+ 
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <section class="achor">
+        <a href="layout1.html">Layout One</a>
+        <a href="layout2.html">Layout Two</a>
+        <a href="layout3.html">Layout Three</a>
+        <a href="layout4.html">Layout Four</a>
+        <a href="layout5.html">Layout Five</a>
+    </section>
+    <section>
+        <h1>Layout one</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, alias. Doloremque vel molestiae, adipisci delectus iusto fugiat inventore aliquid, deleniti incidunt accusamus officia, laborum sunt ab. Temporibus consectetur eveniet ducimus?
+        </p>
+        <div class="row">
+            <div class="col">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-headphones"></i>
+            </div>
+        </div>
+        <div class="para">
+            <div class="para-col">
+                <img src="./book-white-background.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis eos voluptas officia, laborum, totam dolor ab praesentium quos autem error veniam nemo sunt est neque voluptate earum doloremque aut.
+                </p>
+            </div>
+            <div class="para-col">
+                <img src="./book-white-background.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis eos voluptas officia, laborum, totam dolor ab praesentium quos autem error veniam nemo sunt est neque voluptate earum doloremque aut.
+                </p>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
